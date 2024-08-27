@@ -1,0 +1,29 @@
+.appointment {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #171f46;
+  border-radius: 9px;
+  width: 300px;
+  padding: 10px;
+  margin-right: 5px;
+  list-style-type: none;
+}
+
+.line1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.button-star {
+  border: none;
+  background-color: transparent;
+}
+.title {
+  font-size: 25px;
+  font-weight: 800;
+}
+.date {
+  font-size: 20px;
+  color: #b5b7c4;
+  font-weight: 500;
+}
